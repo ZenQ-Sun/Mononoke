@@ -450,9 +450,9 @@ rule-providers:
     url: https://raw.githubusercontent.com/Coldvvater/Mononoke/master/Stash/Rules/Netflix.list
   HBO:
     behavior: classical
-    format: yaml
+    format: text
     interval: 86400
-    url: https://whatshub.top/rule/HBO.rule
+    url: https://raw.githubusercontent.com/Coldvvater/Mononoke/master/Stash/Rules/HBO.list
   Disney+:
     behavior: classical
     format: text
