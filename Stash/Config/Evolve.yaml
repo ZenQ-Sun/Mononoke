@@ -77,6 +77,17 @@ proxy-groups:
       - Singapore
       - America
       - AllServer
+  - name: HBO
+    type: select
+    icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/HBO.png
+    proxies:
+      - Proxy
+      - HongKong
+      - TaiWan
+      - Japan
+      - Singapore
+      - America
+      - AllServer
   - name: Disney+
     type: select
     icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Disney.png
@@ -397,6 +408,7 @@ rules:
   - RULE-SET,AI,AI
   - RULE-SET,YouTube,YouTube
   - RULE-SET,Netflix,NETFLIX
+  - RULE-SET,HBO,HBO
   - RULE-SET,Disney+,Disney+
   - RULE-SET,Emby,Emby
   - RULE-SET,TikTok,TikTok
@@ -436,6 +448,11 @@ rule-providers:
     format: text
     interval: 86400
     url: https://raw.githubusercontent.com/Coldvvater/Mononoke/master/Stash/Rules/Netflix.list
+  HBO:
+    behavior: classical
+    format: text
+    interval: 86400
+    url: https://whatshub.top/rule/HBO.rule
   Disney+:
     behavior: classical
     format: text
